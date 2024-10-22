@@ -9,9 +9,9 @@ if (screen.width > 600) {
   miImagen.src =
     "https://firebasestorage.googleapis.com/v0/b/fb-react-e2e7c.appspot.com/o/netflix%20grande.png?alt=media&token=c66d5fc0-5d93-456d-8544-e492b8453899";
 }
+video.pause();
 
 play.addEventListener("click", () => {
-  console.log("kei");
   video.style.opacity = "1";
   video.play();
   Sec1.style.background = "#181818";

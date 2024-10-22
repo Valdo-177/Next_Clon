@@ -204,3 +204,19 @@ nav div {
     width: 100%;
   }
 }
+footer {
+  height: 11pc;
+  display: flex;
+  /* width: 101%; */
+  align-items: center;
+  justify-content: center;
+}
+
+footer select {
+  width: 90%;
+  height: 2pc;
+  background: #00000063;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+}

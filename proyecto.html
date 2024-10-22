@@ -138,10 +138,25 @@
       </div>
     </div>
   </section>
-  <footer style="height: 20pc"></footer>
+  <footer>
+    <select id="redirect-select">
+      <option value="">Generos</option>
+      <option value="terror">Terror</option>
+      <option value="anime">Anime</option>
+      <option value="cortos">Cortos</option>
+    </select>
+  </footer>
   <script src="./proyecto.js"></script>
   <script>
+    const selectElement = document.getElementById("redirect-select");
 
+    selectElement.addEventListener("change", () => {
+      const selectedOption = selectElement.value;
+      if (selectedOption) {
+        const url = selectedOption + ".html"; // Cambia la extensión según tu configuración
+        window.location.href = url;
+      }
+    });
   </script>
 </body>
 

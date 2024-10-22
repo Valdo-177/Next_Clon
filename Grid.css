@@ -323,4 +323,17 @@ footer select {
     left: 1.6pc;
     width: 90%;
   }
+
+  .ContainerCardElement {
+    display: none;
+  }
+  .containerCard{
+    overflow-x: scroll;
+  }
+  .containerCard img{
+    width: 50%;
+  }
+  .containerCard a {
+    min-width: 50%;
+  }
 }
