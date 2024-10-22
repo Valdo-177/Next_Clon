@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix-Login</title>
+    <link rel="stylesheet" href="./Register.css" />
+    <link
+      rel="shortcut icon"
+      href="https://firebasestorage.googleapis.com/v0/b/fb-react-e2e7c.appspot.com/o/2.png?alt=media&token=07bbe89c-4217-4815-90f8-667d381d0364"
+      type="image/x-icon"
+    />
+    <script src="./Login.js" defer></script>
+    <script src="./Register.js" defer></script>
+  </head>
+  <body>
+    <div class="background" id="background">
+      <div class="logo">
+        <div class="brush1">
+          <div class="color"></div>
+          <div class="lines"></div>
+        </div>
+        <div class="brush2">
+          <div class="color2"></div>
+        </div>
+        <div class="brush3"></div>
+      </div>
+    </div>
+    <div class="login" id="login">
+      <nav>
+        <a href="./index.html">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/fb-react-e2e7c.appspot.com/o/2.png?alt=media&token=07bbe89c-4217-4815-90f8-667d381d0364"
+            alt="ne"
+            class="imgLogin"
+            id="miImagen"
+          />
+        </a>
+        <h1>Crea una cuenta</h1>
+      </nav>
+      <div class="container">
+        <div>
+          <label for="">
+            Nombre
+            <input type="text" placeholder="Nombre completo" />
+          </label>
+          <label for="">
+            Targeta de identificacion
+            <input type="text" placeholder="102020...." />
+          </label>
+          <label for="">
+            Email
+            <input type="text" placeholder="Email o número de teléfono" />
+          </label>
+          <label for="">
+            Contraseña
+            <input type="text" placeholder="Contraseña" />
+          </label>
+          <label for="">
+            Confirma Contraseña
+            <input type="text" placeholder="Contraseña" />
+          </label>
+          <label for="metodo-pago"
+            >Selecciona un método de pago:
+            <select id="metodo-pago">
+              <option value="tarjeta-credito">Tarjeta de crédito</option>
+              <option value="paypal">PayPal</option>
+              <option value="tarjeta-debito">Tarjeta de débito</option>
+              <option value="efectivo">Efectivo</option>
+            </select>
+          </label>
+        </div>
+        <button>Crear Cuenta</button>
+        <span>¿Necesitas ayuda?</span>
+        <br />
+        <p>
+          Esta página está protegida por Google reCAPTCHA para comprobar que no
+          eres un robot. <a href="">Más info.</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

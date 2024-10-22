@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #181818;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1pc 4pc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 2;
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 0.6pc;
+}
+
+.img {
+    width: 4pc;
+}
+
+.init {
+    font-size: 13px;
+    padding: 9px 12px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    color: white;
+}
+
+.uni {
+    font-size: 13px;
+    padding: 9px 12px;
+    border: 1px solid #e50914;
+    border-radius: 2px;
+    background-color: #e50914;
+    background-image: linear-gradient(180deg, #e50914, #db0510);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    color: #fff;
+}
+
+.Sec1 {
+    position: relative;
+    background-image: linear-gradient(36deg,
+            #181818 10%,
+            hsla(0, 0%, 9%, 0.98) 20%,
+            hsla(0, 0%, 9%, 0.97) 25%,
+            hsla(0, 0%, 9%, 0.95) 35%,
+            hsla(0, 0%, 9%, 0.94) 40%,
+            hsla(0, 0%, 9%, 0.92) 45%,
+            hsla(0, 0%, 9%, 0.9) 50%,
+            hsla(0, 0%, 9%, 0.87) 55%,
+            hsla(0, 0%, 9%, 0.82) 60%,
+            hsla(0, 0%, 9%, 0.75) 65%,
+            hsla(0, 0%, 9%, 0.63) 70%,
+            hsla(0, 0%, 9%, 0.45) 75%,
+            hsla(0, 0%, 9%, 0.27) 80%,
+            hsla(0, 0%, 9%, 0.15) 85%,
+            hsla(0, 0%, 9%, 0.08) 90%,
+            hsla(0, 0%, 9%, 0.03) 95%,
+            hsla(0, 0%, 9%, 0)),
+        url("https://occ-0-3358-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVDqL_aP2Q2bJclhIlVvGy2ERIve1zSRT2dNY-KNVSKXhykP2VHHJepIV5IQfE2dFGnlJAnX0a2onVwm64IP6kRD2TI4QYFO77xL.jpg?r=8b8&quot;");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 86vh;
+}
+
+.inf {
+    position: absolute;
+    bottom: 1pc;
+    left: 3.6pc;
+    width: 29pc;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6pc;
+}
+
+.inf img {
+    width: 80%;
+}
+
+.Sec2 {
+    padding: 0 3.6pc;
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+    font-size: 1.2pc;
+}
+
+.Sec2 h1 {
+    font-size: 3pc;
+}
+
+.span {
+    border: 1px solid gray;
+    padding: 1px 3px;
+}
+
+.clasifi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 54%;
+    color: gray;
+}
+
+.pro {
+    color: gray;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    gap: 0.5pc;
+    box-shadow: 8px 5px 16px 0 rgba(0, 0, 0, 0.37);
+    background-image: linear-gradient(90deg, #333 5%, #181818 95%);
+    padding: 0.8pc 0.3pc;
+}
+
+.more div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5pc;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.imgCarteel {
+    width: 30%;
+}
+
+.containerInfo {
+    display: flex;
+    align-items: center;
+    gap: 1.6pc;
+}
+
+.Prota {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2pc;
+}
+
+.Prota p {
+    width: 30%;
+    text-align: center;
+}
+
+.Scrool {
+    white-space: nowrap;
+    overflow: scroll;
+    width: 100%;
+}
+
+.Prota div {
+    width: 100%;
+}
+
+.Scrool img {
+    width: 25%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Ancho de la barra de desplazamiento */
+}
+
+footer {
+    height: 11pc;
+    display: flex;
+    /* width: 101%; */
+    align-items: center;
+    justify-content: center;
+}
+
+footer select {
+    width: 90%;
+    height: 2pc;
+    background: #00000063;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav {
+        padding: 4px 0.6pc 4px 0;
+        width: 98%;
+    }
+
+    .Sec1 {
+        height: 57vh;
+        padding-top: 4pc;
+        background-image: linear-gradient(0deg,
+                #181818 10%,
+                hsla(0, 0%, 9%, 0.98) 20%,
+                hsla(0, 0%, 9%, 0.97) 25%,
+                hsla(0, 0%, 9%, 0.95) 35%,
+                hsla(0, 0%, 9%, 0.94) 40%,
+                hsla(0, 0%, 9%, 0.92) 45%,
+                hsla(0, 0%, 9%, 0.9) 50%,
+                hsla(0, 0%, 9%, 0.87) 55%,
+                hsla(0, 0%, 9%, 0.82) 60%,
+                hsla(0, 0%, 9%, 0.75) 65%,
+                hsla(0, 0%, 9%, 0.63) 70%,
+                hsla(0, 0%, 9%, 0.45) 75%,
+                hsla(0, 0%, 9%, 0.27) 80%,
+                hsla(0, 0%, 9%, 0.15) 85%,
+                hsla(0, 0%, 9%, 0.08) 90%,
+                hsla(0, 0%, 9%, 0.03) 95%,
+                hsla(0, 0%, 9%, 0)),
+            url("https://occ-0-1595-3934.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYKL3XvNNOx1R22MKwtLnbsM_U3xvmfY4KSSjskdb8nkVIVAwu4Ggzvew8og89c7fuT1IaePTwTXQW110pEdj5sK0A0QSMPHvWVa.jpg?r=29e");
+    }
+
+    .Sec1 img {
+        width: 50%;
+    }
+
+    .clasifi {
+        width: 80%;
+    }
+
+    .Sec2 h1 {
+        font-size: 2pc;
+    }
+
+    .Sec2 {
+        font-size: 1pc;
+        padding: 0 1.6pc;
+    }
+
+    .containerInfo {
+        flex-direction: column;
+    }
+
+    .imgCarteel {
+        width: 100%;
+    }
+
+    .Grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1pc;
+    }
+
+    .Prota p {
+        width: 100%;
+    }
+
+    .Scrool img {
+        width: 50%;
+    }
+
+    .inf {
+        position: absolute;
+        bottom: 0pc;
+        left: 1.6pc;
+        width: 90%;
+    }
+}
